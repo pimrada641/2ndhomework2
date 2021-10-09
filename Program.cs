@@ -2,13 +2,13 @@
 
 namespace homework2
 {
-    public enum Menu
+    public enum Menu //กำหนดค่าคงที่ที่แทนตัวเลือกเพื่อไปยังแต่ละเมนู
     {
         RegisterNewStudent = 1,RegisterNewTeacher = 2,GetListPersons = 3,DeletePersonInList = 4
     }
     class Program
     {
-        static PersonList personList;
+        static PersonList personList; //สร้างลิสต์โดยอิงจากค่าใน Class Person List
 
         static int selectmenu;
         static void Main(string[] args)
