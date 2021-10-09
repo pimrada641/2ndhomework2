@@ -8,7 +8,7 @@ namespace homework2
     }
     class Program
     {
-        static PersonList personList; //กำหนดลิสต์โดยอ้างอิงคุณสมบัติจากใน Class Person List
+        static PersonList personList; //เรียกใช้ลิสต์ที่สร้างใน class PersonList
 
         static int selectmenu; //สร้างตัวแปรค่าเมนูที่ผู้ใช้กรอกเป็น static เพื่อให้ใช้ได้ทุกเมธอด
         static void Main(string[] args)
